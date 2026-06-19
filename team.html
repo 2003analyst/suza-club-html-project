@@ -2,25 +2,115 @@
 <html>
 <head>
     <title>SUZA Club - Team</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+        }
+
+        header {
+            background: #0066cc;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background: #333;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            color: #00ccff;
+        }
+
+        h2 {
+            text-align: center;
+            margin-top: 30px;
+            color: #0066cc;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+        }
+
+        .card {
+            background: white;
+            width: 500px;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        ul li {
+            background: #e6f0ff;
+            margin: 10px 0;
+            padding: 12px;
+            border-radius: 8px;
+            font-size: 18px;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+
 </head>
 <body>
+
+<header>
     <h1>Our Team</h1>
+</header>
 
-    <nav>
-        <a href="index.html">Home</a> |
-        <a href="about.html">About</a> |
-        <a href="contact.html">Contact</a> |
-        <a href="team.html">Team</a>
-    </nav>
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="team.html">Team</a>
+</nav>
 
-    <hr>
+<h2>Team Members</h2>
 
-    <h2>Team Members</h2>
-    <ul>
-        <li>Member 1</li>
-        <li>Member 2</li>
-        <li>Member 3</li>
-    </ul>
+<div class="container">
+    <div class="card">
+        <ul>
+            <li>Member 1 - Developer</li>
+            <li>Member 2 - Designer</li>
+            <li>Member 3 - Project Manager</li>
+        </ul>
+    </div>
+</div>
+
+<footer>
+    <p>SUZA Club © 2026</p>
+</footer>
 
 </body>
 </html>
